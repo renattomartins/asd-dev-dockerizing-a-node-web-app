@@ -9,15 +9,17 @@ It was based in [Dockerizing a Node.js web app](https://nodejs.org/en/docs/guide
 3. See if ok with the command `$ docker images`, the name of your image must appear.
 4. Run the command `docker run -p 49160:8080 -d <your username>/node-web-app` also on cloned project root folder.
 5. After this, to test if all the things are ok, you must run `curl -i localhost:49160` and you will see:
-> HTTP/1.1 200 OK<br>
-> X-Powered-By: Express<br>
-> Content-Type: text/html; charset=utf-8<br>
-> Content-Length: 12<br>
-> ETag: W/"c-M6tWOb/Y57lesdjQuHeB1P/qTV0"<br>
-> Date: Sat, 13 Jan 2018 19:36:42 GMT<br>
-> Connection: keep-alive<br>
-><br>
-> Hello world
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 12
+ETag: W/"c-M6tWOb/Y57lesdjQuHeB1P/qTV0"
+Date: Sat, 13 Jan 2018 19:36:42 GMT
+Connection: keep-alive
+
+Hello world
+```
 
 ## About the development environment
  - node v6.11.5
