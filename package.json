@@ -1,0 +1,18 @@
+{
+    "name": "docker-web-app",
+    "version": "1.0.0",
+    "description": "Node.js on Docker",
+    "author": "Renato Martins <renatto.martins@gmail.com>",
+    "license": "ISC",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/renattomartins/asd-dev-dockerizing-a-node-web-app.git"
+    },
+    "dependencies": {
+        "express": "^4.16.1"
+    }
+}
